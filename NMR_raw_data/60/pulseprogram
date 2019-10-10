@@ -1,0 +1,90 @@
+# 1 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/am_hahnecho"
+;am_hahnecho
+
+; Hahn-Echo experiment
+
+# 6 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/am_hahnecho"
+;ns : 16 * n
+;d1 : recycle delay
+;d6, d7 echo delay, d7 shorter than d6
+;pl13 : RF power level
+;p1 : 90 degree pulse
+;p2 : 180 degree pulse
+;l0 : factor for second pulse  (2 for 180°)
+;ns : 16*n
+
+# 1 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Avancesolids.incl" 1
+;Avancesolids.incl
+;   for TCU3
+;
+;version 1 28.2.2001, written by HF
+;	   4.4.2006, complemented by Ste
+
+;switch between 1H or 19F output (H amplifier)
+;version 1 28.2.2001, written by HF 	   4.4.2006, 
+;complemented by Ste 
+;$COMMENT=definitions for setrtp and setnmr
+;$CLASS=Solids INCL
+# 13 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;switch between 1H or 19F output (H amplifier) gating pulse for RX22, ADC and HPPR
+;$OWNER=Bruker
+
+
+# 18 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;gating pulse for RX22, ADC and HPPR
+
+
+# 23 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;generate dwell clock
+
+
+;blank/unblank receiver path
+# 36 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;turn dwell clock on/off
+
+
+;
+# 43 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;define data sampling for WAHUHA type experiments
+
+
+# 49 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;explicit transmitter blanking
+
+
+# 57 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;NCO switching
+
+
+# 15 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/am_hahnecho" 2
+
+"p2=p1*l0"
+
+# 1 "mc_line 18 file /opt/topspin3.2/exp/stan/nmr/lists/pp/user/am_hahnecho dc-measurement inserted automatically"
+
+    dccorr
+# 18 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/am_hahnecho"
+1 ze
+2 d1
+  (p1 ph1):f1
+  d6
+  (p2 ph2):f1
+  d7
+  (1u adc ph31 syrec)
+  (1u ph30:r):f1
+  1u setrtp1|0|8
+  1u:f1 ph0:r
+  1u setrtp1|0|1|2
+  1u cpdngs17:f1
+  aq
+  1m			;allow some time to finish data handing
+  rcyc=2		;repeat NS times
+  wr #0		;save data
+  exit
+# 36 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/am_hahnecho"
+ph0=0
+ph30=0
+ph1=0 1 2 3
+ph2=0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3
+ph31=0 3 2 1 2 1 0 3
+
