@@ -1,0 +1,30 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= milon
+$$ /v/data/milon/nmr/DIM31/104/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2017-10-21 11:42:25.498 +0200>,<milon>,<rmn500>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2017-10-21 10:18:41.658 +0200,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       A4 33 6E 17 1B 8E 91 11 4A 4A C3 90 43 0F 8F 5B
+       data hash MD5: 64K
+       10 82 65 9E 9F 4E B4 7E 94 F9 DE 3D 1B 09 F8 04>)
+(   2,<2018-01-17 14:13:16.631 +0100>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <addfid DC = 1 of
+       104 "DIM31" "/data/hexagonal_phase/NMR/RMN500"
+       105 "DIM31" "/data/hexagonal_phase/NMR/RMN500"
+       data hash MD5: 64K
+       BF F1 C5 C4 DC 13 58 9D 6D 47 AE CC F5 34 B6 7E>)
+(   3,<2018-01-17 14:13:46.920 +0100>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <addfid DC = 1 of
+       104 "DIM31" "/data/hexagonal_phase/NMR/RMN500"
+       103 "DIM31" "/data/hexagonal_phase/NMR/RMN500"
+       data hash MD5: 64K
+       DC 65 F0 D0 35 66 E5 77 53 8F 07 1E 43 F5 E8 C9>)
+##END=
+
+$$ hash MD5
+$$ 51 30 B0 56 C6 42 A1 08 FE 0B 82 B0 95 5B B2 10

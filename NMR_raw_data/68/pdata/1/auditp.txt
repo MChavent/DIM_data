@@ -1,0 +1,59 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 7
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= chavent
+$$ /data/hexagonal_phase/NMR/RMN500/DIM31/104/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2017-10-21 11:42:25.498 +0200>,<milon>,<rmn500>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2017-10-21 10:18:41.658 +0200,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       A4 33 6E 17 1B 8E 91 11 4A 4A C3 90 43 0F 8F 5B
+       data hash MD5: 64K
+       10 82 65 9E 9F 4E B4 7E 94 F9 DE 3D 1B 09 F8 04>)
+(   2,<2018-01-17 14:13:16.631 +0100>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <addfid DC = 1 of
+       104 "DIM31" "/data/hexagonal_phase/NMR/RMN500"
+       105 "DIM31" "/data/hexagonal_phase/NMR/RMN500"
+       data hash MD5: 64K
+       BF F1 C5 C4 DC 13 58 9D 6D 47 AE CC F5 34 B6 7E>)
+(   3,<2018-01-17 14:13:46.920 +0100>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <addfid DC = 1 of
+       104 "DIM31" "/data/hexagonal_phase/NMR/RMN500"
+       103 "DIM31" "/data/hexagonal_phase/NMR/RMN500"
+       data hash MD5: 64K
+       DC 65 F0 D0 35 66 E5 77 53 8F 07 1E 43 F5 E8 C9>)
+(   4,<2018-01-17 14:14:00.568 +0100>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <Start of raw data processing
+       ls NSP = 10 SI = 256K 
+       data hash MD5: 256K
+       A6 6D B8 EA 89 CC 0F 3D C1 B6 FC B3 8B E7 D7 88>)
+(   5,<2018-01-17 14:14:00.654 +0100>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <qsin SSB = 2 SI = 256K 
+       data hash MD5: 256K
+       A1 A2 C4 E7 07 AF 2E 0D E4 8C 4A B5 95 BC A9 1A>)
+(   6,<2018-01-17 14:14:00.808 +0100>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <ft FT_mod = 6 PKNL = 1 SI = 256K 
+       data hash MD5: 256K
+       97 2F 9B FD 83 AE FF 64 2C EE 43 53 F7 83 EB 75>)
+(   7,<2018-01-17 14:14:00.910 +0100>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <pk PHC0 = 19.76656 PHC1 = -34.86606 
+       data hash MD5: 256K
+       76 FB EE 00 51 78 4F 4C A3 DF 0E 9C C3 AA 7B FC>)
+(   8,<2018-01-17 14:14:05.578 +0100>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <apk 
+       data hash MD5: 256K
+       79 60 A7 F5 BF 3C A0 DF 6D D8 F1 71 42 83 A3 94>)
+(   9,<2018-01-17 14:14:08.560 +0100>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <apks 
+       data hash MD5: 256K
+       8E 1A 83 2A FA 43 ED 63 E3 B9 BC AC 74 25 84 34>)
+(  10,<2018-01-17 14:14:33.840 +0100>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <mulc DC = 0.1 
+       data hash MD5: 256K
+       7E 9F EA 5D B8 CC 16 7A 7A F9 F8 A0 F4 0F BE 2C>)
+##END=
+
+$$ hash MD5
+$$ 25 A7 AE 2E F2 0C 3A 56 68 BF B1 DB 47 09 AD E1

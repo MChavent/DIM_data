@@ -1,0 +1,23 @@
+##TITLE= Parameter file, TopSpin 3.5 pl 7
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 12	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= chavent
+$$ 2018-01-17 14:14:30.281 +0100  chavent@oxford
+$$ /data/hexagonal_phase/NMR/RMN500/DIM31/104/pdata/1/curdat2
+$$ process /opt/topspin3.5pl7/prog/mod/dataserver
+##$DATPATH2= </data/hexagonal_phase/NMR/RMN500>
+##$DATPATH3= </data/hexagonal_phase/NMR/RMN500>
+##$DU2= <>
+##$DU3= <>
+##$EXPNO2= 104
+##$EXPNO3= 103
+##$NAME2= <DIM31>
+##$NAME3= <DIM31>
+##$PROCNO2= 1
+##$PROCNO3= 1
+##$TYPE= <>
+##$USER2= <>
+##$USER3= <>
+##END=
