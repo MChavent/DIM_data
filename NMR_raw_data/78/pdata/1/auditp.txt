@@ -1,0 +1,41 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= milon
+$$ /v/data/milon/nmr/DIM31/32/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2017-09-29 15:04:18.221 +0200>,<milon>,<rmn500>,<go>,<TOPSPIN 3.2>,
+      <acquisition in progress>)
+(   2,<2017-09-29 15:06:09.219 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       ls NSP = 10 SI = 256K 
+       data hash MD5: 256K
+       23 4D CA 6E 51 F8 94 50 68 66 61 B2 95 A4 62 8C>)
+(   3,<2017-09-29 15:06:09.307 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <qsin SSB = 2 SI = 256K 
+       data hash MD5: 256K
+       1E 20 BD 78 9B 22 D3 36 5F 9D 29 78 07 83 ED 7F>)
+(   4,<2017-09-29 15:06:09.377 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <ft FT_mod = 6 PKNL = 1 SI = 256K 
+       data hash MD5: 256K
+       A6 D2 7B 53 13 F6 EF 89 AA FE A3 DB 47 92 47 9B>)
+(   5,<2017-09-29 15:06:14.886 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <apk 
+       data hash MD5: 256K
+       72 89 07 A7 85 4C DC CC 3A 6E F8 5E 1C E9 F8 97>)
+(   6,<2017-09-29 15:11:57.217 +0200>,<milon>,<rmn500>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       TITLE=DOPE-SOPC 3:1, sans DIM, 31P 2 kHz, TE 284K (corrigé)
+       Série de spectres 31P 2kHz, NS 4K, de 284K à 324K, par pas de 2 degrés, 25 min d'équilibration entre deux spectres
+       ~7 mg de phospholipide total, 40uL tampon TRIS 10mM pH 7.4, EDTA 1 mM
+       Objectif: voir si le DIM induit des phases non lamellaires
+       on mesure par HRMAS la transition La-HII sur un mélange qui transite vers 40°C (SOPC-DOPE 1-3), avec ou sans DIM
+       On commence par caractériser les spectres de bandes de rotations 31P HRMAS de SOPC pur (phase la),
+       DOPE pur (phase HII) entre 5 et 60°C, puis du mélange SOPC-DOPE.
+       Ensuite on ajoute DIM et on voit si la température de transition changeTITLE_END
+       data hash MD5: 256K
+       72 89 07 A7 85 4C DC CC 3A 6E F8 5E 1C E9 F8 97>)
+##END=
+
+$$ hash MD5
+$$ EE 4D 08 E0 64 96 76 75 EE D2 94 5C CE 0D 64 51
