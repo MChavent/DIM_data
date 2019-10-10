@@ -1,0 +1,27 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 7
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= chavent
+$$ /data/hexagonal_phase/NMR/RMN500/DIM31/77/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2017-10-03 15:09:21.721 +0200>,<milon>,<rmn500>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2017-10-03 13:45:38.004 +0200,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       B3 28 93 12 2F 90 A9 97 C5 ED F7 C3 87 C2 61 91
+       data hash MD5: 64K
+       E1 07 10 58 53 5E ED D2 78 8E 8D D3 0D 0F 35 50>)
+(   2,<2017-10-18 11:31:40.489 +0200>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 7.715471 PHC1 = -45.07583 SI = 256K 
+       data hash MD5: 256K
+       1B 07 F1 81 FA 40 DB F9 65 2C E2 4A 9E CD D8 A4>)
+(   3,<2017-10-18 11:31:47.297 +0200>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <apk 
+       data hash MD5: 256K
+       2D 86 94 41 E8 AE 62 6D D7 98 87 80 56 AD 2D 71>)
+##END=
+
+$$ hash MD5
+$$ E4 E8 5B E9 9B 11 4A BE 8B 9D 88 A0 31 0D 57 88
