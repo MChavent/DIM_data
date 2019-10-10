@@ -1,0 +1,18 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= milon
+$$ /v/data/milon/nmr/DIM31/72/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2017-10-03 06:42:19.349 +0200>,<milon>,<rmn500>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2017-10-03 05:18:35.331 +0200,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       B3 28 93 12 2F 90 A9 97 C5 ED F7 C3 87 C2 61 91
+       data hash MD5: 64K
+       2A 0E B7 69 EB 0D C7 FB B7 2A 46 E0 85 8F 7D A2>)
+##END=
+
+$$ hash MD5
+$$ 62 A9 6C 86 2D B5 13 EC A3 9C CD 82 ED C2 F6 EB
