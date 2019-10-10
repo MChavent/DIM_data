@@ -1,0 +1,39 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= milon
+$$ /v/data/milon/nmr/DIM31/3/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2017-09-26 18:53:31.158 +0200>,<milon>,<rmn500>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2017-09-26 17:29:42.077 +0200,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       E1 3A 01 52 40 4C 94 34 A2 E8 28 4D C5 46 80 53
+       data hash MD5: 64K
+       9F F5 02 E1 FA CC 40 8B C3 3D 24 11 B3 DF D0 90>)
+(   2,<2017-09-27 09:29:13.766 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       ls NSP = 10 SI = 256K 
+       data hash MD5: 256K
+       B7 13 26 CF D1 BC C5 86 CD BA A9 B6 03 F1 40 C8>)
+(   3,<2017-09-27 09:29:13.868 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <qsin SSB = 2 SI = 256K 
+       data hash MD5: 256K
+       CE B7 BF 7A A6 EA 10 5A F4 15 53 9D 7A 22 E9 1E>)
+(   4,<2017-09-27 09:29:13.966 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <ft FT_mod = 6 PKNL = 1 SI = 256K 
+       data hash MD5: 256K
+       ED AA 1F 49 63 66 BA 44 33 62 0E 91 6C 2B 87 3E>)
+(   5,<2017-09-27 09:30:26.160 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <pk fgphup PHC0 = -6 PHC1 = 0 
+       data hash MD5: 256K
+       2A 76 53 3D 9D 49 0B FC AA A8 B0 AC 16 B0 CE 80>)
+(   6,<2017-09-27 09:31:23.013 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <pk fgphup PHC0 = 0.2 PHC1 = 0 
+       data hash MD5: 256K
+       69 DD B9 B3 FF 8A B7 59 51 83 9C FA 26 E5 4D B6>)
+##END=
+
+$$ hash MD5
+$$ AF AD B1 F8 28 EE F2 0D E1 46 F1 D3 0A 95 F0 35
