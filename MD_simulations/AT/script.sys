@@ -1,0 +1,13 @@
+source /opt/amber16/dat/leap/cmd/leaprc.protein.ff14SB
+source /opt/amber14/dat/leap/cmd/leaprc.gaff
+source /opt/amber16/dat/leap/cmd/leaprc.water.tip3p
+loadamberprep DIM.prep
+loadamberparams DIM.frcmod
+mol=loadpdb DIM.pdb
+check mol
+charge mol
+solvatebox mol TIP3PBOX 15
+saveamberparm mol dimwat.prmtop dimwat.inpcrd
+savepdb mol dimwat.pdb
+quit
+

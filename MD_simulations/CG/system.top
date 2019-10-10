@@ -1,0 +1,14 @@
+#include "martini_v2.2.itp"
+#include "martini_v2.0_lipids_all_201506.itp"
+#include "martini_v2.0_ions.itp"
+#include "DIMS_V3.itp"
+
+[ system ]
+; name
+test DIM
+
+[ molecules ]
+; name        number
+DIMS 		1
+POPC          430
+W            8266

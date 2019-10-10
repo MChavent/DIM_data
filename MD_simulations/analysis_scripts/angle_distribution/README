@@ -1,0 +1,4 @@
+
+scripts used to generate an angle distribution. 
+
+First use the (VMD) tcl script to generate data files (an example how to use at the beginning): this will generate a dat file. Then use the jupyter notebbok script to read these data and generate the image. 

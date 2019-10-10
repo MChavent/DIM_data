@@ -1,0 +1,9 @@
+
+
+files to launch a 3 microseconds CG-MARTINI simulation with one DIM lipid embedded into a POPC bilayer. 
+
+first launch:
+gmx grompp -f step7_production.mdp -o run.tpr -c dim_popc.gro -p system.top -n index.ndx
+then: 
+gmx mdrun -deffnm run -v
+

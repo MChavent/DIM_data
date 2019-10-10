@@ -1,0 +1,5 @@
+
+
+files to generate with AMBER16 (tleap) a dummy system with 1 DIM molecule (in a non-extended version) surrounded by water molecules.
+file to run the simulation can be created by running the command: tleap -f script.sys
+

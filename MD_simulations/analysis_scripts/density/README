@@ -1,0 +1,4 @@
+
+scripts used to generate a density picture. 
+
+First use the (VMD) tcl script to generate data files: density_y.dat and density_x.dat and then use the jupyter notebbok script to read these data and generate the image. 
