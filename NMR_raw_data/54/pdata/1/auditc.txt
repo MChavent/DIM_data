@@ -1,0 +1,8 @@
+TITLE=DOPE-SOPC 3:1, avec DIM 1%, 31P 2 kHz, TE 284K (corrigé)
+Série de spectres 31P 2kHz, NS 4K, de 284K à 324K, par pas de 2 degrés, 25 min d'équilibration entre deux spectres
+~7 mg de phospholipide total, 133µg DIM, 50uL tampon TRIS 10mM pH 7.4, EDTA 1 mM
+Objectif: voir si le DIM induit des phases non lamellaires
+on mesure par HRMAS la transition La-HII sur un mélange qui transite vers 40°C (SOPC-DOPE 1-3), avec ou sans DIM
+On commence par caractériser les spectres de bandes de rotations 31P HRMAS de SOPC pur (phase la),
+DOPE pur (phase HII) entre 5 et 60°C, puis du mélange SOPC-DOPE.
+Ensuite on ajoute DIM et on voit si la température de transition changeTITLE_END
