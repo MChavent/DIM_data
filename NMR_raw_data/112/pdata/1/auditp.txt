@@ -1,0 +1,17 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= milon
+$$ /v/data/milon/nmr/DIM_DiLiPE/13/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-07-05 11:03:34.456 +0200>,<milon>,<rmn500>,<go>,<TOPSPIN 3.2>,
+      <acquisition in progress>)
+(   2,<2018-07-05 11:31:41.916 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 270.8915 PHC1 = -536.8832 SI = 256K 
+       data hash MD5: 256K
+       6B 38 4E F8 E8 E0 9E C0 A2 6F 71 48 04 45 58 81>)
+##END=
+
+$$ hash MD5
+$$ 7A 72 72 9E C1 7E BF 6F 9E 79 96 4C 62 88 1E D0
