@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 3.5 pl 7
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= chavent
+$$ 2018-09-12 15:14:15.032 +0200  chavent@oxford
+$$ /data/hexagonal_phase/NMR/RMN500/DIM_DiLiPE/4/pdata/1/assocs
+$$ process /opt/topspin3.5pl7/prog/mod/dataserver
+##$MULTDISP= </data/hexagonal_phase/NMR/RMN500/DIM_DiLiPE/5/pdata/1|/data/hexagonal_phase/NMR/RMN500/DIM_DiLiPE/6/pdata/1>
+##END=
