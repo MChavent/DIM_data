@@ -1,0 +1,43 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= milon
+$$ /v/data/milon/nmr/DIM_lipnat/61/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2019-08-28 19:35:39.674 +0200>,<milon>,<rmn500>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2019-08-28 18:11:55.928 +0200,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       4D A8 6C 39 C5 B5 3F B3 1B E0 22 EA 0D 25 B4 ED
+       data hash MD5: 64K
+       01 C6 02 F8 45 02 47 00 1E 83 B1 36 D3 94 3A 89>)
+(   2,<2019-08-29 09:52:31.356 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = -63.35059 PHC1 = 133.5772 SI = 256K 
+       data hash MD5: 256K
+       59 13 EF D3 41 65 74 AC 91 2E 63 ED F2 74 D4 EA>)
+(   3,<2019-08-29 09:52:34.104 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <apk 
+       data hash MD5: 256K
+       42 BF 37 3E 5C E5 93 D6 A9 E7 9D F5 0E 27 0E 5D>)
+(   4,<2019-08-29 10:14:29.328 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <apk 
+       data hash MD5: 256K
+       42 BF 37 3E 5C E5 93 D6 A9 E7 9D F5 0E 27 0E 5D>)
+(   5,<2019-08-29 10:14:30.397 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <abs n ABSG = 5 
+       data hash MD5: 256K
+       8E B6 DB 4A EE EA 3A 08 CC 6A 3F D8 AE 07 D0 41>)
+(   6,<2019-08-29 12:58:54.208 +0200>,<milon>,<rmn500>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       TITLE=PE-SM-Chol DIM 5%, 31P 2 kHz, TE 318K (corrigé)
+       Série de spectres 31P 2kHz, NS 4K, de 284K à 324K, par pas de 2 degrés, 25 min d'équilibration entre deux spectres
+       ~7 mg de phospholipide total, 0µg DIM, 50uL tampon TRIS 10mM pH 7.4, EDTA 1 mM
+       bjectif exp 40 à 80: en réponse à PNAS, refaire les manips 31P et 2H avec un mélange de lipides mimant les membranes plasmiques, avec ou sans DIM 5% et DiLiPE 5%TITLE_END
+       data hash MD5: 256K
+       8E B6 DB 4A EE EA 3A 08 CC 6A 3F D8 AE 07 D0 41>)
+##END=
+
+$$ hash MD5
+$$ A3 54 24 D9 2E 6B 56 80 72 32 C9 3F 71 0F E1 86

@@ -1,0 +1,43 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= milon
+$$ /v/data/milon/nmr/DIM_lipnat/60/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2019-08-28 17:56:21.332 +0200>,<milon>,<rmn500>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2019-08-28 16:32:37.480 +0200,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       4D A8 6C 39 C5 B5 3F B3 1B E0 22 EA 0D 25 B4 ED
+       data hash MD5: 64K
+       01 BC A2 51 50 B5 38 80 E4 6C 43 84 09 92 66 A4>)
+(   2,<2019-08-29 09:52:23.733 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = -63.35059 PHC1 = 133.5772 SI = 256K 
+       data hash MD5: 256K
+       6B A5 3A 43 76 0D D5 C8 61 81 B6 F0 FC 6E 90 48>)
+(   3,<2019-08-29 09:52:26.522 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <apk 
+       data hash MD5: 256K
+       70 8F EF 8E 2E 4C 0D 0C 26 DA 0F 41 55 7F E0 57>)
+(   4,<2019-08-29 12:58:46.103 +0200>,<milon>,<rmn500>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       TITLE=PE-SM-Chol DIM 5%, 31P 2 kHz, TE 316K (corrigé)
+       Série de spectres 31P 2kHz, NS 4K, de 284K à 324K, par pas de 2 degrés, 25 min d'équilibration entre deux spectres
+       ~7 mg de phospholipide total, 0µg DIM, 50uL tampon TRIS 10mM pH 7.4, EDTA 1 mM
+       bjectif exp 40 à 80: en réponse à PNAS, refaire les manips 31P et 2H avec un mélange de lipides mimant les membranes plasmiques, avec ou sans DIM 5% et DiLiPE 5%TITLE_END
+       data hash MD5: 256K
+       70 8F EF 8E 2E 4C 0D 0C 26 DA 0F 41 55 7F E0 57>)
+(   5,<2019-08-29 12:58:47.199 +0200>,<milon>,<rmn500>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       TITLE=PE-SM-Chol DIM 5%, 31P 2 kHz, TE 316K (corrigé)
+       Série de spectres 31P 2kHz, NS 4K, de 284K à 324K, par pas de 2 degrés, 25 min d'équilibration entre deux spectres
+       ~7 mg de phospholipide total, 0µg DIM, 50uL tampon TRIS 10mM pH 7.4, EDTA 1 mM
+       bjectif exp 40 à 80: en réponse à PNAS, refaire les manips 31P et 2H avec un mélange de lipides mimant les membranes plasmiques, avec ou sans DIM 5% et DiLiPE 5%TITLE_END
+       data hash MD5: 256K
+       70 8F EF 8E 2E 4C 0D 0C 26 DA 0F 41 55 7F E0 57>)
+##END=
+
+$$ hash MD5
+$$ E4 B3 18 C5 C1 3B F8 9D 58 B9 E3 CB BC 73 07 D4
