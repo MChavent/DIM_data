@@ -1,0 +1,29 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= milon
+$$ /v/data/milon/nmr/DIM_lipnat/73/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2019-08-29 11:58:50.458 +0200>,<milon>,<rmn500>,<go>,<TOPSPIN 3.2>,
+      <acquisition in progress>)
+(   2,<2019-08-29 12:45:37.226 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = -63.35059 PHC1 = 133.5772 SI = 256K 
+       data hash MD5: 256K
+       09 CD A3 19 4D FD D6 99 BD F2 21 08 69 F4 07 1B>)
+(   3,<2019-08-29 12:45:41.611 +0200>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <apk 
+       data hash MD5: 256K
+       F5 9C BE 17 68 0C 91 31 D0 A2 91 22 0A 3E DA 86>)
+(   4,<2019-08-29 12:47:09.101 +0200>,<milon>,<rmn500>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       TITLE=PE-SM-Chol, no DIM, 31P 2 kHz, TE 284K (corrigé)
+       Série de spectres 31P 2kHz, NS 4K, de 284K à 324K, par pas de 2 degrés, 25 min d'équilibration entre deux spectres
+       ~3.8 mg de phospholipide total, 0µg DIM, 50uL tampon TRIS 10mM pH 7.4, EDTA 1 mM
+       bjectif exp 40 à 80: en réponse à PNAS, refaire les manips 31P et 2H avec un mélange de lipides mimant les membranes plasmiques, avec ou sans DIM 5% et DiLiPE 5%TITLE_END
+       data hash MD5: 256K
+       F5 9C BE 17 68 0C 91 31 D0 A2 91 22 0A 3E DA 86>)
+##END=
+
+$$ hash MD5
+$$ 90 6F 98 E4 51 D2 16 7C D4 AA FA 16 27 52 A2 B3

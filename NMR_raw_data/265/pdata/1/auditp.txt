@@ -1,0 +1,55 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 7
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= chavent
+$$ /data/hexagonal_phase/NMR/RMN500/DIM_lysoPC/143/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-12-01 03:07:26.489 +0100>,<milon>,<rmn500>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-12-01 01:43:42.802 +0100,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       5E 55 A4 04 AB 70 B9 87 0B 2A E7 05 77 1F 04 CE
+       data hash MD5: 64K
+       A2 D2 70 93 EC 4C 8C 9D DA 15 3E 52 A9 9F F3 24>)
+(   2,<2018-12-11 10:54:30.241 +0100>,<chavent>,<oxford>,<proc1d>,<TopSpin 3.5.7>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = -68.65036 PHC1 = 127.9478 SI = 256K 
+       data hash MD5: 256K
+       64 A5 B8 0C B1 BD B9 51 7A A3 6A 12 2B B4 CA F3>)
+(   3,<2018-12-11 10:54:59.362 +0100>,<chavent>,<oxford>,<audit>,<TopSpin 3.5.7>,
+      <user comment:
+       TITLE=DOPE-SOPC-LysoPC 75 : 15 : 10, avec 2.5% DIM, TE 322K (corrigé)
+       Série de spectres 31P 2kHz, NS 4K, de 284K à 324K, par pas de 2 degrés, 25min d'équilibration entre deux spectres
+       50uL tampon TRIS 10mM pH 7.4, EDTA 1 mM
+       ~6mg de lipides totauxTITLE_END
+       data hash MD5: 256K
+       64 A5 B8 0C B1 BD B9 51 7A A3 6A 12 2B B4 CA F3>)
+(   4,<2018-12-11 10:55:02.350 +0100>,<chavent>,<oxford>,<audit>,<TopSpin 3.5.7>,
+      <user comment:
+       TITLE=DOPE-SOPC-LysoPC 75 : 15 : 10, avec 2.5% DIM, TE 322K (corrigé)
+       Série de spectres 31P 2kHz, NS 4K, de 284K à 324K, par pas de 2 degrés, 25min d'équilibration entre deux spectres
+       50uL tampon TRIS 10mM pH 7.4, EDTA 1 mM
+       ~6mg de lipides totauxTITLE_END
+       data hash MD5: 256K
+       64 A5 B8 0C B1 BD B9 51 7A A3 6A 12 2B B4 CA F3>)
+(   5,<2018-12-11 10:55:02.571 +0100>,<chavent>,<oxford>,<audit>,<TopSpin 3.5.7>,
+      <user comment:
+       TITLE=DOPE-SOPC-LysoPC 75 : 15 : 10, avec 2.5% DIM, TE 322K (corrigé)
+       Série de spectres 31P 2kHz, NS 4K, de 284K à 324K, par pas de 2 degrés, 25min d'équilibration entre deux spectres
+       50uL tampon TRIS 10mM pH 7.4, EDTA 1 mM
+       ~6mg de lipides totauxTITLE_END
+       data hash MD5: 256K
+       64 A5 B8 0C B1 BD B9 51 7A A3 6A 12 2B B4 CA F3>)
+(   6,<2018-12-11 10:55:15.399 +0100>,<chavent>,<oxford>,<audit>,<TopSpin 3.5.7>,
+      <user comment:
+       TITLE=DOPE-SOPC-LysoPC 75 : 15 : 10, avec 2.5% DIM, TE 322K (corrigé)
+       Série de spectres 31P 2kHz, NS 4K, de 284K à 324K, par pas de 2 degrés, 25min d'équilibration entre deux spectres
+       50uL tampon TRIS 10mM pH 7.4, EDTA 1 mM
+       ~6mg de lipides totauxTITLE_END
+       data hash MD5: 256K
+       64 A5 B8 0C B1 BD B9 51 7A A3 6A 12 2B B4 CA F3>)
+##END=
+
+$$ hash MD5
+$$ A6 65 C0 8B C9 21 94 96 4D 63 48 E0 88 F6 55 59
