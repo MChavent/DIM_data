@@ -1,0 +1,27 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= milon
+$$ /v/data/milon/nmr/DIM_lysoPC/5/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-10-31 16:00:48.196 +0100>,<milon>,<rmn500>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-10-31 14:37:04.535 +0100,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       92 25 B1 68 4E 1A 40 14 84 EA F9 67 AE 29 02 15
+       data hash MD5: 64K
+       C4 41 0F 0C EF 75 2D 3F 6B E3 CF E9 35 84 EE FE>)
+(   2,<2018-10-31 16:23:22.013 +0100>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = 270.8915 PHC1 = -536.8832 SI = 256K 
+       data hash MD5: 256K
+       71 0A 04 75 C1 E8 62 BD 37 8C CE 84 04 BF 6D 39>)
+(   3,<2018-10-31 16:23:48.071 +0100>,<milon>,<rmn500>,<proc1d>,<TOPSPIN 3.2>,
+      <pk fgphup PHC0 = -4.6 PHC1 = 0 
+       data hash MD5: 256K
+       99 4E 45 B6 4B 40 F2 06 CC 0C 57 1A AC 6B 76 FE>)
+##END=
+
+$$ hash MD5
+$$ 24 AF 36 D2 65 8E 7D 6C 11 4D 80 26 46 D3 B9 47
