@@ -1,0 +1,43 @@
+
+Current Data Parameters
+NAME              DIM31              
+EXPNO                53              
+PROCNO                1              
+
+F2 - Acquisition Parameters
+Date_          20171001              
+Time               3.59              
+INSTRUM           spect              
+PROBHD   4 mm HRMAS 1H/              
+PULPROG     am_hahnecho              
+TD                65536              
+SOLVENT         H2O+D2O              
+NS                 4096              
+DS                  600              
+SWH          500000.000 Hz           
+FIDRES         7.629395 Hz           
+AQ            0.0655360 sec          
+RG                 2050              
+DW                1.000 usec         
+DE                 6.50 usec         
+TE                320.0 K            
+D1           1.00000000 sec          
+D6           0.00002000 sec          
+D7           0.00001000 sec          
+L0                    2              
+
+======== CHANNEL f1 ========
+SFO1        202.4561245 MHz          
+NUC1                31P              
+P1                 5.30 usec         
+P2                10.60 usec         
+PLW1       107.15000153 W            
+
+F2 - Processing parameters
+SI               262144              
+SF          202.4562915 MHz          
+WDW               QSINE              
+SSB                   2              
+LB       0 Hz           
+GB       0              
+PC                 1.00              
