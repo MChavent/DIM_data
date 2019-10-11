@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 2	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= milon
+$$ 2018-01-15 12:53:39.262 +0100  milon@rmn500
+$$ /v/data/milon/nmr/DIM31/202/pdata/1/assocs
+$$ process /opt/topspin3.2/prog/mod/dataserver
+##$MULTDISP= </v/data/milon/nmr/DIM31/82/pdata/1|/v/data/milon/nmr/DIM31/77/pdata/1|/v/data/milon/nmr/DIM31/72/pdata/1|/v/data/milon/nmr/DIM31/197/pdata/1|/v/data/milon/nmr/DIM31/192/pdata/1|/v/data/milon/nmr/DIM31/101/pdata/1|/v/data/milon/nmr/DIM31/106/pdata/1|/v/data/milon/nmr/DIM31/111/pdata/1>
+##END=
